@@ -1,11 +1,13 @@
 body {
-  background: #fafafa;
-  color: #333333;
+  background-image: url("rainforest.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #888888;
   margin-top: 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  color: #888888;
 }
 
 ul {
@@ -13,7 +15,7 @@ ul {
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #315610;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -29,15 +31,24 @@ ul {
 }
 
 .content-section {
-  background: #ffffff;
+  background: rgba(0, 0, 0, 0.9);
   padding: 10px 20px;
   border: 1px solid #dddddd;
   border-radius: 3px;
   margin-bottom: 20px;
 }
+.sidebar {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  position: fixed;
+}
 
 .article-title {
-  color: #444444;
+  color: #888888;
 }
 
 a.article-title:hover {
